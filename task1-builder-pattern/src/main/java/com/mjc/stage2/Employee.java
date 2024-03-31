@@ -80,23 +80,23 @@ public class Employee {
             return this;
         }
         public EmployeeBuilder setLastName(String lastName) {
-            employee.setName(lastName);
+            employee.setLastName(lastName);
             return this;
         }
         public EmployeeBuilder setPosition(String position) {
-            employee.setName(position);
+            employee.setPosition(position);
             return this;
         }
         public EmployeeBuilder setPhone(String phone) {
-            employee.setName(phone);
+            employee.setPhone(phone);
             return this;
         }
         public EmployeeBuilder setEmail(String email) {
-            employee.setName(email);
+            employee.setEmail(email);
             return this;
         }
         public EmployeeBuilder setCarNumber(String carNumber) {
-            employee.setName(carNumber);
+            employee.setCarNumber(carNumber);
             return this;
         }
 
