@@ -95,7 +95,7 @@ public class Employee {
             employee.setName(email);
             return this;
         }
-        public EmployeeBuilder setEarNumber(String carNumber) {
+        public EmployeeBuilder setCarNumber(String carNumber) {
             employee.setName(carNumber);
             return this;
         }
