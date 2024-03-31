@@ -17,7 +17,7 @@ public class H2ConnectionFactory implements ConnectionFactory {
 
     public H2ConnectionFactory() {
         Properties props = new Properties();
-        try (FileInputStream fis = new FileInputStream("app.properties")) {
+        try (FileInputStream fis = new FileInputStream("h2database.properties")) {
             props.load(fis);
         } catch (IOException e) {
             e.printStackTrace();
